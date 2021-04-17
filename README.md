@@ -6,4 +6,5 @@
 external_converters:
   - YHY-S4.js
   - YHY-S3.js
+  - MULTI-MOTI--EA04.js
 ```
