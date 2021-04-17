@@ -12,8 +12,8 @@ fz.legacy = ptvo_switch.meta.tuyaThermostatPreset;
 const device = {
     zigbeeModel: ['YHY-S4'],
     model: 'YHY-S4',
-    vendor: 'Custom devices (DiY)',
-    description: '[Configurable firmware](https://ptvo.info/zigbee-configurable-firmware-features/)',
+    vendor: 'YiHuiYun',
+    description: 'Yihuiyun quadruple key wired wall light switch',
     fromZigbee: [fz.ignore_basic_report, fz.on_off, fz.ptvo_multistate_action, fz.legacy.ptvo_switch_buttons,],
     toZigbee: [tz.ptvo_switch_trigger, tz.on_off,],
     exposes: [e.switch().withEndpoint('l2'),
