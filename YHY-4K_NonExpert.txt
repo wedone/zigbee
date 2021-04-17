@@ -1,0 +1,17 @@
+Board type: CC2530 + RFX2401 (config control pins!!!)
+Device type: Router
+ Transmit enable (TXEN): P12Receive enable (RXEN): P14
+Status LED: P05, Joining or errors
+
+Output pins:
+P02: Output 2, GPIO, External pull-up, Remember state
+P03: Output 3, GPIO, External pull-up, Remember state
+P04: Output 4, GPIO, External pull-up, Remember state
+P06: Output 5, GPIO, External pull-up, Remember state
+
+Input pins:
+P07: Input 1, GPIO, Pull-up, Link to out 1
+P00: Input 2, GPIO, Pull-up, Link to out 2
+P01: Input 3, GPIO, Pull-up, Link to out 3
+P10: Input 4, GPIO, Pull-up, Link to out 4
+P12: Input 5, GPIO, Pull-up, Link to out 5
