@@ -13,8 +13,8 @@ const device = {
     description: 'human body movement sensor',
     fromZigbee: [fz.ias_occupancy_alarm_1_with_timeout, fz.battery],
     toZigbee: [],
-    exposes: [e.occupancy(), e.battery_low(), e.tamper()],
-    meta: {battery: {voltageToPercentage: '3V_2500'}},
+    exposes: [e.occupancy(), e.battery_low(), e.tamper(), e.linkquality()],
+    meta: { battery: { voltageToPercentage: '3V_2500' } },
 };
 
 module.exports = device;
