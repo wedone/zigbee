@@ -3,8 +3,9 @@ Device type: Router
  Transmit enable (TXEN): P11Receive enable (RXEN): P14
 Manufacturer name: YiHuiYun
 Model ID: YHY-S4
-Location description: 4key wall switch
-Status LED: P05, Joining or errors
+Update firmware's timestamp : 2021-04-18
+Status LED: P05, Periodic (every 5 seconds)
+Set default reporting interval (s): 0
 
 Output pins:
 P02: Output 2, GPIO, External pull-up, Remember state
