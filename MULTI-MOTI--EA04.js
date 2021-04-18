@@ -9,11 +9,10 @@ const device = {
     zigbeeModel: ['MULTI-MOTI--EA04'],
     model: 'MULTI-MOTI--EA04',
     vendor: 'Shuncom',
-    icon: 'img/magnet.png',
-    description: 'human body movement sensor',
+    description: 'ROOME human body movement sensor',
     fromZigbee: [fz.ias_occupancy_alarm_1_with_timeout, fz.battery],
     toZigbee: [],
-    exposes: [e.occupancy(), e.battery_low(), e.tamper(), e.linkquality()],
+    exposes: [e.occupancy(), e.battery_low(), e.linkquality()],
     meta: { battery: { voltageToPercentage: '3V_2500' } },
 };
 
