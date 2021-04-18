@@ -4,7 +4,7 @@ Device type: Router
 Manufacturer name: YiHuiYun
 Model ID: YHY-S3
 Update firmware's timestamp : 2021-04-18
-Status LED: P05, Periodic (every 5 seconds)
+Status LED: P05, Joining or errors
 Set default reporting interval (s): 0
 
 Output pins:
