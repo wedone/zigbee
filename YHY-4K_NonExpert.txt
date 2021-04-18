@@ -2,7 +2,7 @@ Board type: CC2530 + RFX2401 (config control pins!!!)
 Device type: Router
  Transmit enable (TXEN): P11Receive enable (RXEN): P14
 Update firmware's timestamp : 2021-04-18
-Status LED: P05, Periodic (every 5 seconds)
+Status LED: P05, Joining or errors
 Set default reporting interval (s): 0
 
 Output pins:
