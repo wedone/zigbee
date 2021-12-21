@@ -12,11 +12,12 @@ fz.legacy = ptvo_switch.meta.tuyaThermostatPreset;
 const device = {
     zigbeeModel: ['MR-KG006'],
     model: 'MR-KG006',
-    vendor: 'èŒ‚è£æ™ºèƒ½',
-    description: 'é©­ç›¾æ™ºèƒ½ä¸¤è·¯è§¦æ‘¸å¼€å…³',
+    vendor: 'Ã¯ÈÙ¿Æ¼¼',
+    description: 'Ô¦¶ÜÖÇÄÜÁ½Â·ÕÕÃ÷¿ª¹Ø',
     fromZigbee: [fz.ignore_basic_report, fz.on_off,],
     toZigbee: [tz.ptvo_switch_trigger, tz.on_off,],
-    exposes: [e.switch().withEndpoint('l1'),
+    exposes: [
+      e.switch().withEndpoint('l1'),
       e.switch().withEndpoint('l2'),
 ],
     meta: {
